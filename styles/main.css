@@ -1,9 +1,9 @@
 td {
-  padding: 0 30px 30px 20px;
+  padding: 20px 50px;
   text-align: center;
 }
 
-td:hover {background-color: #f2e1f7;}
+td:hover {background-color: #3282b8;}
 
 table {
   margin-left: auto;
@@ -12,5 +12,33 @@ table {
 
 body {
   text-align: center;
-  font-family: verdana;
+  font-family: "avenir";
+  background-color: #0f4c75;
+  color: #bbe1fa;
+}
+
+h1 {
+  font-family: "gill sans";
+  color: #f6eec7;
+}
+
+hr {
+  height: 1px;
+  background: #f6eec7;
+  border: none;
+  outline: none;
+  margin: 3% 5% 4%;
+}
+
+.banner {
+  color: #0f4c75;
+  text-align: center;
+  margin: 3% 5% 0% 5%;
+  font-style: italic;
+  background-color: #bbe1fa;
+  padding: 2%;
+}
+
+.banner-hr {
+  margin-top: 0%;
 }
