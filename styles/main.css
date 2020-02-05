@@ -1,5 +1,5 @@
 td {
-  padding: 20px 50px;
+  padding: 0px 50px 20px 50px;
   text-align: center;
 }
 
@@ -18,8 +18,10 @@ body {
 }
 
 h1 {
-  font-family: "gill sans";
+  font-family: "palatino";
+  font-size: 3rem;
   color: #f6eec7;
+  margin-bottom: 2%;
 }
 
 hr {
@@ -31,7 +33,8 @@ hr {
 }
 
 .banner {
-  color: #0f4c75;
+  /* color: #0f4c75; */
+  color: black;
   text-align: center;
   margin: 3% 5% 0% 5%;
   font-style: italic;
@@ -41,4 +44,20 @@ hr {
 
 .banner-hr {
   margin-top: 0%;
+}
+
+img {
+  border:4px solid black;
+}
+
+.state:hover {
+  fill: yellow;
+}
+
+.me {
+  fill: #bbe1fa;
+}
+
+svg {
+  width: 80%;
 }
